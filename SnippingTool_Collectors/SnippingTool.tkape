@@ -1,0 +1,26 @@
+Description: Snipping Tool Cached Images and Videos
+Author: Joshua Beaman, Forscie
+Version: 1.0
+Id: c388dd6e-4a3f-4dd0-ba0c-740ac1b11c98
+RecreateDirectories: true
+Targets:
+  -
+    Name: Snipping Tool Default Screenshots
+    Category: FileKnowledge
+    Path: C:\Users\*\Pictures\Screenshots\
+    Comment: 'Retrieves screenshots saved to disk by Snipping Tool in the default location \Pictures\Screenshots'
+  -
+    Name: Snipping Tool Fallback Screenshots
+    Category: FileKnowledge
+    Path: C:\Users\*\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Snips\
+    Comment: 'Retrieves screenshots saved to disk by Snipping Tool in a fallback location if the setting ''Automatically save original screenshots'' is toggled off'
+  -
+    Name: Snipping Tool Default Videos
+    Category: FileKnowledge
+    Path: C:\Users\*\Videos\Screen Recordings
+    Comment: 'Retrieves screen recordings saved to disk by Snipping Tool in the default location \Videos\Screen Recordings'
+
+# Documentation
+# Snipping Tool Cached Screenshots - https://insiderthreatmatrix.org/detections/DT129
+# Snipping Tool TempState\Snips - https://insiderthreatmatrix.org/detections/DT130
+# Snipping Tool Cached Screen Recordings - https://insiderthreatmatrix.org/detections/DT131
