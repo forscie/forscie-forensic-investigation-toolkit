@@ -15,3 +15,7 @@ These applications are commonly used to capture screenshots or screen recordings
 ## License
 
 Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the repository’s `LICENSE` file for more information.
+
+---
+
+Forscie®. Inside Matters.

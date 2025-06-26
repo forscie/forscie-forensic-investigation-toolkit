@@ -41,8 +41,8 @@ To propose additions:
 
 Forscie is a cybersecurity company specialising in insider threat defence. We build tools, frameworks, and training to help defenders secure the inside — where trust is most vulnerable.
 
-🔗 [forscie.com](https://www.forscie.com)   
-🧠 [insiderthreatmatrix.org](https://www.insiderthreatmatrix.org)
+[forscie.com](https://www.forscie.com)   
+[insiderthreatmatrix.org](https://www.insiderthreatmatrix.org)
 
 ---
 
