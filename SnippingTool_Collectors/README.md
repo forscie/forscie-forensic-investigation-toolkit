@@ -6,10 +6,10 @@ These applications are commonly used to capture screenshots or screen recordings
 
 ## Included Files
 
-- **SnippingTool_Target.mkape**  
+- **SnippingTool.tkape**  
   A KAPE target file that defines known locations on disk where Snipping Tool saves images and recordings. It enables fast, automated collection during forensic triage.
 
-- **Extract-SnippingToolArtifacts.ps1**  
+- **Snipping_Tool_Artifact_Collector.ps1**  
   A PowerShell script that scans a user’s profile for Snipping Tool artefacts and copies them to a local folder for review. Designed for quick, lightweight use—especially on live systems.
 
 ## License
