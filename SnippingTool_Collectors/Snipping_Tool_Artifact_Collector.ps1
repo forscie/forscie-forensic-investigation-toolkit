@@ -1,12 +1,13 @@
 # Description: Retrieve Snipping Tool Cached Images and Videos
 # Author: Forscie
-# Version: 1.0
+# Version: 1.1
 
 # Define relative paths to search under the user profile
 $paths = @(
     "Pictures\Screenshots",
     "Videos\Screen Recordings",
-    "AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Snips"
+    "AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Snips",
+    "AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Recordings"  # Added for .mp4 files
 )
 
 # Generate timestamp and destination folder on the Desktop
@@ -36,3 +37,4 @@ Write-Host "Collection complete. Files saved to: $destinationRoot"
 # Snipping Tool Cached Screenshots - https://insiderthreatmatrix.org/detections/DT129
 # Snipping Tool TempState\Snips - https://insiderthreatmatrix.org/detections/DT130
 # Snipping Tool Cached Screen Recordings - https://insiderthreatmatrix.org/detections/DT131
+# Snipping Tool TempState\Recordings - https://insiderthreatmatrix.org/detections/DT132
