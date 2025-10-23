@@ -1,4 +1,4 @@
-# Forscie Investigation Kit
+# Forscie® Forensic Investigation Toolkit
 
 A curated collection of operational tools and detection artefacts developed by Forscie to support insider threat investigations and digital forensics.
 
