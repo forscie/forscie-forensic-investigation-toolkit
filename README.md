@@ -2,7 +2,7 @@
 
 A curated collection of operational tools and detection artefacts developed by Forscie to support insider threat investigations and digital forensics.
 
-This repository is maintained by the Forscie team and includes resources aligned with our frameworks and investigative methodology — including the [Insider Threat Matrix](https://www.insiderthreatmatrix.org).
+This repository is maintained by the Forscie team and includes resources aligned with our frameworks and investigative methodology — including the [Insider Threat Matrix™](https://www.insiderthreatmatrix.org).
 
 ## Contents
 
